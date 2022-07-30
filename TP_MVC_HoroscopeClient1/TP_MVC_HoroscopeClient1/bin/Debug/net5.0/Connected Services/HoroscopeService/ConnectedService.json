@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "https://localhost:44382/WebService1.asmx?WSDL"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, HoroscopeService"
+    ],
+    "targetFramework": "net5.0",
+    "typeReuseMode": "All"
+  }
+}

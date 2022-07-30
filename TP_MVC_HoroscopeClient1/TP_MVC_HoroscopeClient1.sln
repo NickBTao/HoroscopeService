@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_MVC_HoroscopeClient1", "TP_MVC_HoroscopeClient1\TP_MVC_HoroscopeClient1.csproj", "{65C8824E-D371-4E24-B41D-AF4A4F7F1148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C8824E-D371-4E24-B41D-AF4A4F7F1148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C8824E-D371-4E24-B41D-AF4A4F7F1148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C8824E-D371-4E24-B41D-AF4A4F7F1148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C8824E-D371-4E24-B41D-AF4A4F7F1148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A511031-1FE6-4B7B-A559-666025299A4C}
+	EndGlobalSection
+EndGlobal

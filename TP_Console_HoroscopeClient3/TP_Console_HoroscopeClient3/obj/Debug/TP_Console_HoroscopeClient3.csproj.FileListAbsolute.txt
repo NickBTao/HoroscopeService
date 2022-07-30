@@ -1,0 +1,7 @@
+E:\00Data\CBD-bdeb\Cours\3\B11-OrServices\VS\TP_Console_HoroscopeClient3\TP_Console_HoroscopeClient3\bin\Debug\TP_Console_HoroscopeClient3.exe.config
+E:\00Data\CBD-bdeb\Cours\3\B11-OrServices\VS\TP_Console_HoroscopeClient3\TP_Console_HoroscopeClient3\bin\Debug\TP_Console_HoroscopeClient3.exe
+E:\00Data\CBD-bdeb\Cours\3\B11-OrServices\VS\TP_Console_HoroscopeClient3\TP_Console_HoroscopeClient3\bin\Debug\TP_Console_HoroscopeClient3.pdb
+E:\00Data\CBD-bdeb\Cours\3\B11-OrServices\VS\TP_Console_HoroscopeClient3\TP_Console_HoroscopeClient3\obj\Debug\TP_Console_HoroscopeClient3.csproj.AssemblyReference.cache
+E:\00Data\CBD-bdeb\Cours\3\B11-OrServices\VS\TP_Console_HoroscopeClient3\TP_Console_HoroscopeClient3\obj\Debug\TP_Console_HoroscopeClient3.csproj.CoreCompileInputs.cache
+E:\00Data\CBD-bdeb\Cours\3\B11-OrServices\VS\TP_Console_HoroscopeClient3\TP_Console_HoroscopeClient3\obj\Debug\TP_Console_HoroscopeClient3.exe
+E:\00Data\CBD-bdeb\Cours\3\B11-OrServices\VS\TP_Console_HoroscopeClient3\TP_Console_HoroscopeClient3\obj\Debug\TP_Console_HoroscopeClient3.pdb

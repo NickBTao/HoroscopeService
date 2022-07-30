@@ -1,0 +1,85 @@
+﻿@model IEnumerable<TP_MVC_AdminHoroscopeClient1.Models.UserData>
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+<h1>Service User List</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sign)
+            </th>
+            <th>
+                DateServiceUsed
+            </th>
+            <th>
+                FromComputer
+            </th>
+            <th>
+                @@@Html.DisplayNameFor(model => model.IpAddress)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewBag.UserDataList) {
+        <tr>
+            <td>
+                @item.ID
+
+            </td>
+            <td>
+                @item.FirstName
+            </td>
+            <td>
+                @item.LastName
+
+            </td>
+            <td>
+                @item.BirthDay.ToString("MMM dd, yyyy")
+
+            </td>
+            <td>
+                @item.Age
+
+            </td>
+            <td>
+                @item.Sign
+
+            </td>
+            <td>
+                @item.CurrentDate.ToString("MMM dd, yyyy H:mm:ss")
+
+            </td>
+            <td>
+                @item.ComputerName
+
+            </td>
+            <td>
+                @item.IpAddress
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

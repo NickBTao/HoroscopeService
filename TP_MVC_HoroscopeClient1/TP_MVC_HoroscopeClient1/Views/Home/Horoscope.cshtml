@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="text-center">
+
+    <div class="testbox">
+        <form asp-action="Index">
+            <!--<div class="banner">
+                <h3></h3>
+            </div>-->
+            <br />
+            <fieldset>
+
+
+                <h4> @ViewBag.HoroscopeResult[2] @ViewBag.HoroscopeResult[3].ToString(): <Strong>@ViewBag.HoroscopeResult[9] </Strong></h4>
+                <p class="text-left" margin-bottom:10px;">@ViewBag.HoroscopeResult[10]</p>
+                <br />
+                <p class="text-left">@ViewBag.HoroscopeResult[11]</p>
+
+                <br />
+                <p class="text-left"> Based on your age (@ViewBag.HoroscopeResult[8]), our Life Coach says : </p>
+                <p class="text-left"><Strong>@ViewBag.HoroscopeResult[12]</Strong></p>
+
+
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Back to Home Page" class="btn btn-primary" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <p>Web Service Connection... @ViewBag.HoroscopeResult[0] @ViewBag.HoroscopeResult[1]</p>
+    <p>Computer @ViewBag.HoroscopeResult[4], Connected from IP @ViewBag.HoroscopeResult[5] at @ViewBag.HoroscopeResult[7]</p>
+    <p>Database Connection : @ViewBag.HoroscopeResult[13]</p>
+
+
+</div>

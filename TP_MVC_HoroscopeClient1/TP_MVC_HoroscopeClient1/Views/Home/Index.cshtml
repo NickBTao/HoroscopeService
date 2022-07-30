@@ -1,0 +1,60 @@
+﻿@model TP_MVC_HoroscopeClient1.Models.UserData
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+
+
+
+    <div class="testbox">
+        <form asp-action="Horoscope">
+            <div class="banner">
+                
+            </div>
+            <br />
+            <fieldset>
+
+                <legend>@ViewBag.Msg.ToString()</legend>
+                <br />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group item">
+                    <label asp-for="FirstName" class="control-label"> First Name</label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group item">
+                    <label asp-for="LastName" class="control-label"> Last Name</label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group item">
+                    <label asp-for="BirthDay" class="control-label"> Birth Date</label>
+                    <input type="date" asp-for="BirthDay" class="form-control" />
+                    <i class="fas fa-calendar-alt"></i>
+                    <span asp-validation-for="BirthDay" class="text-danger"></span>
+                </div>
+
+                <!--HIDDEN FIELDS-->
+                <input type="hidden" asp-for="ComputerName" class="form-control" value=@ViewBag.ComputerName.ToString() />
+                <input type="hidden" asp-for="IpAddress" class="form-control" value=@ViewBag.IpAddress.ToString() />
+                <input type="hidden" asp-for="CurrentDate" class="form-control" value=@ViewBag.CurrentDate />
+
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Get Horoscope" class="btn btn-primary" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+</div>
